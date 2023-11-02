@@ -13,7 +13,7 @@ export default function Stack(props){
             <a href={props.item.locationUrl}>View on Google Maps</a>
             </div>
             <h3 className="stack-title">{props.item.name}</h3>
-            <p className="stack-date">{props.item.date}</p>
+            <p className="stack-date">{props.item.startDate} - {props.item.endDate}</p>
             <p className="stack-description">{props.item.description}</p>
             </div>
         </div>

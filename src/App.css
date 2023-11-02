@@ -32,7 +32,7 @@ border-radius: 5px;
   width: 21px;
 height: 30px;
 flex-shrink: 0;
-margin: 20px 10px 20px 0px;
+margin: 20px 10px 5px 0px;
 }
 
 .stack-detail{
@@ -48,7 +48,7 @@ margin: 20px 10px 20px 0px;
 
 .stack-main-location > a {
  
-  margin: 20px 0px;
+  margin: 20px 0px 5px 0px;
   color: #918E9B;
 font-family: Inter;
 font-size: 20px;
