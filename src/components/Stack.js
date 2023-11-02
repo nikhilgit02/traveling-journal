@@ -3,15 +3,19 @@ import pin from "./images/Fill 219.svg"
 
 export default function Stack(props){
     return(
-        <div>
-            <img src={props.item.imgUrl}/>
-            <img src={pin}/>
-            <p>{props.item.location}</p>
-            <a href="">View on Google Maps</a>
-            <h3>{props.item.name}</h3>
-            <p><b>{props.item.date}</b></p>
-            <p>{props.item.description}</p>
-
+        <div className="stack">
+            <div>
+            <img src={props.item.imgUrl} className="main-img"/>
+            </div>
+            <div className="stack-detail">
+            <div className="stack-main-location"><img src={pin} className="pin-img"/>
+            <p className="stack-country">{props.item.location}</p>
+            <a href={props.item.locationUrl}>View on Google Maps</a>
+            </div>
+            <h3 className="stack-title">{props.item.name}</h3>
+            <p className="stack-date">{props.item.date}</p>
+            <p className="stack-description">{props.item.description}</p>
+            </div>
         </div>
     )
 }

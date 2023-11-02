@@ -1,10 +1,100 @@
+body{
+  margin: 0;
+}
 nav{
   background: #F55A5A;;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Inter', sans-serif;
 }
 
 nav > img{
   padding-right: 5px;
+}
+
+.stack{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 40px;
+  box-shadow: 4px;
+
+}
+
+.main-img{
+  width: 250px;
+height: 336px;
+flex-shrink: 0;
+border-radius: 5px;
+}
+
+.pin-img{
+  width: 21px;
+height: 30px;
+flex-shrink: 0;
+margin: 20px 10px 20px 0px;
+}
+
+.stack-detail{
+  display: flex;
+  flex-direction: column;
+  padding-left: 19px;
+}
+
+.stack-main-location{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stack-main-location > a {
+ 
+  margin: 20px 0px;
+  color: #918E9B;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.stack-country{
+  color: #2B283A;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4px;
+margin-right: 6px;
+}
+
+.stack-title{
+  color: #2B283A;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 10px 0px;
+}
+
+.stack-date{
+  color: #2B283A;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+}
+
+.stack-description{
+  color: #2B283A;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15.36px */
+margin-top: 9px;
 }
